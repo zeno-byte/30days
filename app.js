@@ -1,6 +1,45 @@
+
 const recipes = {
-  // ... (The same recipe data from the previous example)
+  breakfast: [
+    "Scrambled Eggs with Spinach",
+    "Bacon and Avocado Omelet",
+    "Smoked Salmon and Cream Cheese",
+    "Greek Yogurt with Berries",
+    "Mushroom and Spinach Frittata",
+    "Sausage and Egg Breakfast Burrito",
+    "Omelette with Tomatoes and Peppers",
+    "Cottage Cheese with Pineapple",
+    "Almond Butter and Banana Smoothie",
+    "Ham and Cheese Roll-Ups",
+  ],
+  lunch: [
+    "Grilled Chicken Salad",
+    "Zucchini Noodles with Pesto",
+    "Tuna Salad Lettuce Wraps",
+    "Cauliflower Rice with Stir-Fried Veggies",
+    "Salmon and Asparagus",
+    "Chicken Caesar Salad",
+    "Avocado and Shrimp Ceviche",
+    "Egg Salad with Lettuce Wraps",
+    "Tomato and Mozzarella Salad",
+    "Lentil and Chickpea Salad",
+  ],
+  dinner: [
+    "Grilled Steak with Broccoli",
+    "Baked Cod with Lemon and Herbs",
+    "Spaghetti Squash with Meatballs",
+    "Chicken Stir-Fry with Vegetables",
+    "Eggplant Parmesan",
+    "Salmon with Dill Sauce",
+    "Pork Tenderloin with Green Beans",
+    "Beef and Broccoli Stir-Fry",
+    "Shrimp Scampi with Zoodles",
+    "Cauliflower Crust Pizza",
+  ],
 };
+
+// Rest of the code remains the same
+
 
 function generateRandomMealPlan(days) {
   const mealPlan = [];
