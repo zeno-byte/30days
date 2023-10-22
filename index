@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero-Carb Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>30-Day Zero-Carb, No-Pork Meal Plan</h1>
+        <button id="generate-plan">Generate Meal Plan</button>
+        <div id="meal-plan"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
